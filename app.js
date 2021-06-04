@@ -7,7 +7,7 @@ btn.addEventListener("click", () => {
 });
 
 li.forEach((id) => {
-    li.addEventListener("click", () => {
+    id.addEventListener("click", () => {
         nav.classList.remove("active");
     });
 });
