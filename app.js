@@ -4,17 +4,14 @@ const li = document.querySelectorAll(".list-content li");
 
 btn.addEventListener("click", () => {
     nav.classList.toggle("active");
-})
+});
 
-// li[0].addEventListener("click", () => {
-//     nav.classList.toggle("active");
-// })
-
-toggle = (id) => {
-    li[id].addEventListener("click", () => {
+li.forEach((id) => {
+    li.addEventListener("click", () => {
         nav.classList.remove("active");
-    })
-}
+    });
+});
+    
 
 
 
